@@ -17,8 +17,7 @@ function OurStory(){
 }
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        
+        flex: 1, 
     },
     title:{
         fontSize: 28,
