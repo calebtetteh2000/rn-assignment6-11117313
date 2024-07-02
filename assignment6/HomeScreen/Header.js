@@ -1,8 +1,9 @@
 import React from "react";
-import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 function Header(){
+    const navigation = useNavigation();
     return(
         <View style={styles.container}>
             <View>
@@ -15,7 +16,9 @@ function Header(){
                 <Image style={styles.searchImage} source={require("../assets/Search-2.png")} />
             </View>
             <View>
+                <TouchableOpacity onPress={() => navigation.navigate('CheckoutScreen')}>
                 <Image style={styles.shoppingImage} source={require("../assets/shoppingBag.png")} />
+                </TouchableOpacity>
             </View>
         </View>
     )

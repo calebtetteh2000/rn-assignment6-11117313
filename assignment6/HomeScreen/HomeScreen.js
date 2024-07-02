@@ -4,11 +4,11 @@ import Header from "./Header"
 import OurStory from "./OurStory"
 import Clothes from "./Clothes";
 
-export default function HomeScreen(){
+function HomeScreen({navigation}){
     return(
     <View style={styles.container}>
         <ScrollView>
-            <Header />
+            <Header navigation={navigation}/>
             <OurStory />
             <Clothes />
         </ScrollView>
@@ -21,6 +21,9 @@ export default function HomeScreen(){
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: "#fff",
     }
 })
+
+export default HomeScreen;
 
