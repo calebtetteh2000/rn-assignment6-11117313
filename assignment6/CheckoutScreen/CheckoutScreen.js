@@ -2,6 +2,7 @@ import React from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import Header from "./Header";
 import Checkout from "./Checkout"
+import Footer from "./Footer"
 
 
 export default function CheckoutScreen(){
@@ -10,6 +11,7 @@ export default function CheckoutScreen(){
             <ScrollView style={styles.scroll}>
                 <Header/>
                 <Checkout/>
+                <Footer/>
             </ScrollView>
         </View>
     );
