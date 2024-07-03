@@ -7,3 +7,5 @@ This is a React Native component that renders a header section for a mobile appl
 The Clothes component displays a list of products in a grid layout. Each product is represented by a ProductCard component, which displays the product's image, name, description, price, and an "Add to cart" button. The products are stored in an array and mapped to individual ProductCard components.
 
 The OurStory component displays a title "OUR STORY" and two circular images with a list view and a filter icon.
+<img width="1470" alt="Screenshot 2024-07-03 at 2 32 12 AM" src="https://github.com/calebtetteh2000/rn-assignment6-11117313/assets/150846386/5bb52154-1e71-493a-96cf-d5d879b93c74">
+<img width="1470" alt="Screenshot 2024-07-03 at 2 32 19 AM" src="https://github.com/calebtetteh2000/rn-assignment6-11117313/assets/150846386/47e602b4-683f-4ba8-8ab0-93b16329b739">
